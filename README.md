@@ -1,4 +1,4 @@
-# personalprojects
+# AWS SQS event redrive Lambda
 
 This repository contains one simple AWS Lambda function in Python to redrive AWS SQS events from source queue to destination queue. This script can be triggered periodically via cloudwatch as well if source queue contains too many events and you dont want to redrive them  altogether.
 * batch_size can be passed as input which will move only X events in one execution cycle. Default batch size is 10 if no value is passed.
